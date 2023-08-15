@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content= "with=device-width, initial-scale=1.0">
+        <title>University Website Design With - Sandeep</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="Index.html"><img src="image/Logo.png" alt=""></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    
+                    <ul>
+                        <li><a href="Index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+   <!-----------------contact us for more----------->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14404.160427373576!2d82.60588106244388!3d25.50370890866284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399020eb0111da6f%3A0xc92fc6a56950aa91!2sGopalapur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1666355272151!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home" ></i>
+                <span>
+                    <h5> XYZ rode acd gali</h5>
+                    <p>Utter pradesh, india</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-home" ></i>
+                <span>
+                    <h5>+18798739458</h5>
+                    <p>mon-sat</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-home" ></i>
+                <span>
+                    <h5> XYZ@gmail.com</h5>
+                    <p>Utter pradesh, india</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your Nname" required>
+                <input type="email" name="email" placeholder="Enter your Email" required>
+                <input type="text" name="subject" placeholder="Enter your Subject" required>
+                <textarea rows="8" name="message" placeholder="message"></textarea>
+                <button type="submit" class="hero-btn red-btn">Submit</button>
+            </form>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+   <!-----------------this is footer----------->
+
+            <section class="footer">
+                <h4>About Us</h4>
+                <p>Recognition of gender is kind of difficult when the image is captured from far 
+                    distance by using haar-like features<br>For this problem we have used simple but 
+                    effective idea.</p>
+                    <div class="icons">
+                        <i class="fa fa-facebook" ></i>
+                        <i class="fa fa-twitter" ></i>
+                        <i class="fa fa-instagram" ></i>
+                        <i class="fa fa-linkedin" ></i>
+                    </div>
+                    <p>Made by sandeep-mz</p>
+            </section>
+            
+
+
+        <!-----------------JavaScript for Toggle Menu----------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+    </body>
+</html>
